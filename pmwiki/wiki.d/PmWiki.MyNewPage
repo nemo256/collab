@@ -1,0 +1,15 @@
+version=pmwiki-2.2.145 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:95.0) Gecko/20100101 Firefox/95.0
+author=
+charset=ISO-8859-1
+csum=
+ctime=1641463005
+host=127.0.0.1
+name=PmWiki.MyNewPage
+rev=1
+targets=PmWiki.Home
+text=[[Home]]
+time=1641463005
+author:1641463005=
+diff:1641463005:1641463005:=1d0%0a%3c [[Home]]%0a\ No newline at end of file%0a
+host:1641463005=127.0.0.1

@@ -1,0 +1,10 @@
+PmWiki:     https://www.pmwiki.org/wiki/PmWiki/
+Cookbook:   https://www.pmwiki.org/wiki/Cookbook/
+Skins:      https://www.pmwiki.org/wiki/Skins/
+Wiki:       http://www.c2.com/cgi/wiki?
+UseMod:     http://www.usemod.com/cgi-bin/wiki.pl?
+Meatball:   http://meatballwiki.org/wiki/
+Wikipedia:  https://en.wikipedia.org/wiki/
+PITS:       https://www.pmwiki.org/wiki/PITS/
+PmL10n:     https://www.pmwiki.org/wiki/Localization/
+Path:            

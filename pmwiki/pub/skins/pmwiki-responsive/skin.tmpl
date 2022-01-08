@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html $HTMLTagAttr>
+<head>
+  <title>$WikiTitle | {$Group} / {$Title} $ActionTitle</title>
+  <!-- Skin Copyright 2017 Petko Yotov www.pmwiki.org/petko ; Skin License GNU GPLv2+ -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel='stylesheet' href='$SkinDirUrl/skin.css' type='text/css' />
+  <!--HTMLHeader-->
+</head>
+<body>
+  <div id="bodywrap">
+    <input id="wikileft-toggle" type="checkbox"/>
+    <label for="wikileft-toggle" id="wikileft-toggle-label"></label>
+
+    <input id="wikihead-search-toggle" type="checkbox"/>
+    <label for="wikihead-search-toggle" id="wikihead-search-toggle-label"></label>
+    <input id="wikicmds-toggle" type="checkbox"/>
+
+<!--function:SkinFmt #skinheader {$Group}.SkinElements {$SiteGroup}.SkinElements-->
+<!--PageHeaderFmt-->
+    <header id="wikihead">
+      <div id="wikihead-content">
+        <span id="wikilogo"><a href="{$ScriptUrl}"><img src="$PageLogoUrl" alt="$WikiTitle"/></a></span>
+        <form id="wikihead-searchform" action="{$ScriptUrl}" method="get">
+          <span class="headnav" id="wikihead-recent-changes-link">
+            <a href="{$ScriptUrl}/$[{$Group}/RecentChanges]" accesskey="$[ak_recentchanges]">$[Recent Changes]</a> -
+          </span>
+          <span id="wikihead-searchlink"><a href="{$ScriptUrl}/$[{$SiteGroup}/Search]">$[Search]</a>:</span>
+          <input type="hidden" name="n" value="{$FullName}" />
+          <input type="hidden" name="action" value="search" />
+          <input id="wikihead-searchquery" type="search" name="q" value="" class="inputbox searchbox" placeholder="$[Search]" />
+          <input id="wikihead-searchsubmitbtn" type="submit" class="inputbutton searchbutton" value="$[Go]" />
+        </form>
+      </div><!--wikiheadcontent-->
+    </header><!--wikihead-->
+<!--/PageHeaderFmt-->
+
+    <div id="wikimid">
+<!--PageLeftFmt-->
+      <nav id="wikisidebar">
+        <div id="wikileft">
+          <!--wiki:{$Group}.SideBar {$SiteGroup}.SideBar-->
+        </div>
+      </nav>
+<!--/PageLeftFmt-->
+
+      <div id="wikibody">
+        <main>
+<!--PageActionFmt-->
+        <label for="wikicmds-toggle" id="wikicmds-toggle-label"></label>
+        <div id='wikicmds'><!--wiki:{$Group}.PageActions {$SiteGroup}.PageActions--></div>
+<!--/PageActionFmt-->
+<!--PageTitleFmt-->
+          <div id='wikititle'>
+            <div class='pagegroup'><a href='{$ScriptUrl}/{$Group}'>{$Group}</a> /</div>
+            <h1 class='pagetitle'>{$Title}</h1>
+          </div>
+<!--/PageTitleFmt-->
+
+<!--PageText-->
+        </main>
+
+      </div><!--wikibody-->
+
+    </div><!--wikimid-->
+
+<!--function:SkinFmt #skinfooter {$Group}.SkinElements {$SiteGroup}.SkinElements-->
+<!--PageFooterFmt-->
+    <footer id='wikifoot'>
+      <div id="wikifoot-links" class="footnav">
+        <a rel="nofollow" href="{$PageUrl}?action=edit">$[Edit]</a> -
+        <a rel="nofollow" href="{$PageUrl}?action=diff">$[History]</a> -
+        <a rel="nofollow" href="{$PageUrl}?action=print" target="_blank">$[Print]</a> -
+        <a href="{$ScriptUrl}/$[{$Group}/RecentChanges]">$[Recent Changes]</a> -
+        <a href="{$ScriptUrl}/$[{$SiteGroup}/Search]">$[Search]</a>
+      </div>
+      <div id="wikifoot-lastmod" class="lastmod">$[Page last modified on {$LastModified}]</div>
+    </footer>
+<!--/PageFooterFmt-->
+    <div id="wikioverlay"></div>
+  </div><!--bodywrap-->
+
+  <script type='text/javascript' src='$SkinDirUrl/skin.js' async></script>
+
+<!--HTMLFooter-->
+
+</body>
+</html>
+

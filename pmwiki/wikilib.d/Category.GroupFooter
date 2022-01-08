@@ -1,0 +1,9 @@
+version=pmwiki-2.2.105 ordered=1 urlencoded=1
+author=Petko
+charset=UTF-8
+csum=add  request=1 for the new search on pmwiki.org
+name=Category.GroupFooter
+rev=73
+targets=
+text=(:Summary:content generated for Category list pages:)%0a----%0a[--'''{*$:Summary}'''--]%0a(:pagelist link={*$FullName} list=normal request=1:)%0a
+time=1511113873

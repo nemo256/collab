@@ -1,0 +1,555 @@
+/***********************************************************************
+**  skin.css
+**  Copyright 2016-2020 Petko Yotov www.pmwiki.org/petko
+**  
+**  Partially based on pmwiki.css:
+**  Copyright 2004-2006 Patrick R. Michaud pmichaud@pobox.com
+**  Copyright 2006 Hagan Fox
+**  
+**  This file is part of PmWiki; you can redistribute it and/or modify
+**  it under the terms of the GNU General Public License as published
+**  by the Free Software Foundation; either version 2 of the License, or
+**  (at your option) any later version.  See pmwiki.php for full details.
+**  
+**  This skin was implemented with a mobile-first approach.
+**  It should work reasonably well with browsers released since 2009.
+**  This CSS uses relative "Reference pixel" dimensions.
+***********************************************************************/
+
+html, body, #bodywrap {
+  padding: 0;
+  margin: 0;
+  font-family: 'Arial', 'Helvetica', Sans-serif;
+  font-size:15px;
+  line-height: 25px;
+  background-color: #f7f7f7;
+  color: black;
+  min-height: 100%;
+  position: relative;
+}
+
+#wikibody {
+  position: relative;
+  background-color: white;
+  padding: 3px;
+  margin: 0;
+}
+
+#wikileft, #wikihead-searchform, #wikicmds {
+  background-color: #fff;
+  opacity: 0.1;
+  display: none;
+  position: absolute;
+  border: 1px solid #ccc;
+  max-width: 90%;
+  max-width: 90vw;
+  height: auto;
+  overflow: auto;
+  top: 8px;  
+  -webkit-box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.75);
+}
+
+#wikihead {
+  border-bottom:1px solid #ccc;
+  padding: 0;
+  margin: 0;
+  line-height: 13px;
+  min-height: 33px;
+}
+
+#wikihead-searchform {
+  text-align: center;
+  padding: 10px;
+  z-index: 5;
+  right: 30px;
+  width: 16em;
+  max-width: 80%;
+  line-height: 167%;
+}
+#wikihead-searchquery {
+  max-width: 12em;
+}
+#wikimid {
+  margin: 0; 
+  padding: 0;
+  max-width: 100%;
+}
+
+#wikileft { 
+  left: 30px;
+  padding: 6px;
+  z-index: 4;
+}
+
+#wikicmds { 
+  padding:0px;
+  z-index: 6;
+  white-space:nowrap; 
+  right: 30px;
+}
+
+#wikitext {
+  margin-top: 12px;
+}
+
+#wikifoot {
+  border-top: 1px solid #ccc;
+  padding: 3px;
+  font-size: 13.5px;
+}
+
+#wikifoot.nosidebar {
+  padding-left:3px;
+}
+
+#wikihead-search-toggle, #wikileft-toggle, #wikicmds-toggle {
+  display: none;
+}
+
+#wikihead-search-toggle-label { background-image: url(xsearch.svg); }
+#wikileft-toggle-label        { background-image: url(xmenu.svg); }
+#wikicmds-toggle-label        { background-image: url(xwrench.svg); }
+
+#wikihead-search-toggle-label, #wikileft-toggle-label, #wikicmds-toggle-label {
+  position: relative;
+  display: block;
+  width: 22px;
+  height: 22px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float:right;
+  margin: 6px 6px 0 6px;
+  z-index: 3;
+}
+
+#wikileft-toggle-label {
+  float: left;
+}
+#wikicmds-toggle-label {
+  margin: 3px;
+}
+
+#wikihead-search-toggle:checked + label,
+#wikileft-toggle:checked + label, 
+#wikicmds-toggle:checked ~ #wikimid #wikicmds-toggle-label {
+  background-image: url(xclose.svg);
+}
+
+#wikileft-toggle:checked ~ * #wikileft,
+#wikihead-search-toggle:checked ~ * #wikihead-searchform,
+#wikicmds-toggle:checked ~ * #wikicmds {   
+  display: block;
+  opacity: 1;
+  
+-webkit-animation: fadein 1s; 
+   -moz-animation: fadein 1s;
+    -ms-animation: fadein 1s;
+     -o-animation: fadein 1s;
+        animation: fadein 1s;
+}
+
+#wikioverlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0; 
+  right: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, .2);
+  z-index: 2;
+  display: none;
+}
+#wikileft-toggle:checked ~ #wikioverlay,
+#wikihead-search-toggle:checked ~ #wikioverlay,
+#wikicmds-toggle:checked ~ #wikioverlay {   
+  display: block;
+}
+
+
+
+/* These are for the left-sidebar. */
+#wikileft .vspace { margin-top:20px; }
+#wikileft ul { list-style:none; padding:0px; margin:0px; }
+#wikileft li { margin:8px 0px; padding-left: 6px; }
+.sidehead {
+  margin:0px; padding:4px 2px 2px 2px;
+  font-weight:bold; font-style:normal; 
+}
+.sidehead a 
+  { color:#505050; font-weight:bold; font-style:normal; }
+#wikileft a { text-decoration:none; color:black; padding: 8px 0; }
+#wikileft a:hover { text-decoration:underline; color:blue; }
+
+#wikicmds ul { list-style:none; margin:0px; padding:0px; }
+#wikicmds li { padding: 8px; border-top:1px solid #ccc;}
+#wikicmds li:first-child {border-top:none;}
+#wikicmds li a { text-decoration:none; color:black; border: none; }
+#wikicmds li a.createlink { display:none; }
+#wikicmds li a:hover { text-decoration:underline; color:blue; }
+
+
+/* These primarily adjust the size and spacing of heading elements,
+** most browsers have atrocious defaults for these. */
+h1, h2, h3, h4, h5, h6 { margin-top:15px; margin-bottom:9px; }
+h1, h2, h3, h6 { font-weight:normal; }
+h4, h5 { font-weight:bold; }
+h1 code, h2 code, h3 code, h4 code { font-size:15px; }
+h1 { font-size:27px; }
+h2 { font-size:22px; }
+h3 { font-size:18px; }
+h4 { font-size:16px; }
+h5 { font-size:15px; }
+h6 { font-size:15px; }
+
+.pagegroup { line-height:30px; }
+.pagetitle { line-height:24px; margin:0px; font-size:24px; font-weight:normal; }
+.wikiaction { margin-top:4px; margin-bottom:4px; }
+
+/* These control the fixed-width text elements of the page */
+pre, code { font-size:14px; }
+pre, code, .diffmarkup { font-family:'Lucida Console','Andale Mono','Courier New',Courier,monospace; }
+pre { line-height: 18px; }
+pre code, code code, pre pre { font-size:100%; }
+pre, code.escaped { max-width: 100%; overflow: auto; }
+
+/* Large tables can scroll */
+div.scrollable { max-width: 100%; overflow: auto; border: 1px dotted red;}
+
+#wikiedit form { margin:0px; width:100%; max-width:100%; }
+#wikiedit textarea { width:99.5%; max-width:99.5%; max-height: 60vh; }
+#wikiedit input { max-width:99.5%; }
+.wikimessage { margin-top:4px; margin-bottom:4px; font-style:italic; }
+
+input, img, iframe {
+  max-width: 100%;
+}
+dd {
+  margin-left: 15px;
+}
+ul, ol {
+  margin: 0;
+}
+
+select, textarea, input {
+  font-size: 16px; /*disable zoom-in on some phones*/
+}
+
+/* xlpage-utf-8.php */
+.rtl, .rtl * {direction:rtl; unicode-bidi:bidi-override;}
+.ltr, .ltr * {direction:ltr; unicode-bidi:bidi-override;}
+.rtl .indent, .rtl.indent, .rtl .outdent, .rtl.outdent {
+  margin-left:0; margin-right: 15px;
+}
+
+/* pmwiki.php */
+ul, ol, pre, dl, p { margin-top:0px; margin-bottom:0px; }
+code.escaped { 
+  white-space: pre; 
+  display: inline-block;
+  vertical-align: bottom;
+  text-indent: 0;
+}
+.vspace { margin-top:25px; }
+.indent { margin-left:15px; }
+.outdent { margin-left:15px; text-indent:-15px; }
+a.createlinktext { text-decoration:none; border-bottom:1px dotted gray; }
+a.createlink { text-decoration:none; position:relative; top:-7px;
+  font-weight:bold; font-size:smaller; border-bottom:none; }
+img { border:0px; }
+
+/* Prevent white space below vertically stacked images */
+div.imgonly img, div.imgcaption img:first-child { vertical-align: bottom; }
+
+/* wikistyles.php */
+.frame { border:1px solid #cccccc; padding:4px; background-color:#f9f9f9; }
+.lfloat { float:left; margin-right:7px; }
+.rfloat { float:right; margin-left:7px; }
+
+/* stdmarkup.php */
+table.markup { border:2px dotted #ccf; width:100%; }
+/* td.markup1, td.markup2 { padding-left:0px; padding-right:0px; } */
+table.horiz td.markup1, table.vert td.markup1 { 
+  border-bottom:1px solid #ccf; border-right: none; width: auto; }
+table.horiz td.markup1, table.horiz td.markup2 {
+  /* horizontal markup tables to vertical */
+  display: block; }
+table.markup caption { text-align:left; }
+div.faq p, div.faq pre { margin-left:15px; }
+div.faq p.question { margin: 0; font-weight:bold; }
+div.faqtoc div.faq * { display:none; }
+div.faqtoc div.faq p.question 
+  { display:block; font-weight:normal; margin:7px 0 7px 15px; line-height:normal; }
+div.faqtoc div.faq p.question * { display:inline; }    
+
+/* simuledit.php */
+.editconflict { color:green; 
+  font-style:italic; margin-top:20px; margin-bottom:20px; }
+
+/* pagerev.php */
+.diffbox { border-left:1px #999 solid; margin-top:20px; font-size:12px;  }
+.diffauthor { font-weight:bold; }
+.diffchangesum { font-weight:bold; }
+.difftime { background-color:#ddd; }
+.difftype { font-weight:bold; }
+.diffadd { border-left:5px #9f9 solid; padding-left:5px; }
+.diffdel { border-left:5px #ff9 solid; padding-left:5px; }
+.diffrestore { margin:20px 0px; }
+.diffmarkup { font-size:14px;  } 
+.diffmarkup del { background:#ff9; text-decoration: none; }
+.diffmarkup ins { background:#9f9; text-decoration: none; }
+
+/* urlapprove.php */
+.apprlink { font-size:smaller; }
+
+/* vardoc.php */
+a.varlink { text-decoration:none; }
+
+#wikiedit-minoredit {
+  white-space: nowrap;
+}
+
+/* In HTML5 only styles are valid for alignment */
+td.left,   th.left   { text-align: left;}
+td.center, th.center { text-align: center;}
+td.right,  th.right  { text-align: right;}
+td.top,    th.top    { vertical-align: top;}
+td.bottom, th.bottom { vertical-align: bottom;}
+td.middle, th.middle { vertical-align: middle;}
+
+.noPmTOC {display:none;}
+.PmTOCdiv { display: inline-block; font-size: 13px; overflow: auto; max-height: 500px;}
+.PmTOCdiv a { text-decoration: none;}
+.back-arrow {font-size: .9em; text-decoration: none;}
+#PmTOCchk + label {cursor: pointer;}
+#PmTOCchk {display: none;}
+#PmTOCchk:not(:checked) + label > .pmtoc-show {display: none;}
+#PmTOCchk:checked + label > .pmtoc-hide {display: none;}
+#PmTOCchk:checked + label + div {display: none;}
+
+table.simpletable {
+  border-collapse: collapse;
+}
+table.simpletable tr:nth-child(odd) {
+  background-color: #eee;
+}
+table.simpletable th {
+  background-color: #ccc;
+}
+table.simpletable th, table.simpletable td {
+  border: 1px solid #888;
+}
+
+table.sortable th {
+  cursor: pointer;
+}
+
+table.sortable th:hover::after {
+  color: inherit;
+  content: "\00A0\025B8";
+}
+
+table.sortable th::after {
+  color: transparent;
+  content: "\00A0\025B8";
+}
+
+table.sortable th.dir-u::after {
+  color: inherit;
+  content: "\00A0\025BE";
+}
+
+table.sortable th.dir-d::after {
+  color: inherit;
+  content: "\00A0\025B4";
+}
+
+*[data-pmtoggle], .pmtoggleall {
+  cursor: pointer;
+  font-weight: bold;
+}
+*[data-pmtoggle]::before {
+  content: "\025BE\00A0";
+  float: left;
+}
+*[data-pmtoggle="closed"]::before {
+  content: "\025B8\00A0";
+}
+
+*[data-pmtoggle] + * {
+  margin-left: .8em;
+}
+*[data-pmtoggle="closed"] + * {
+  display: none;
+}
+
+@media screen and (min-width:50em) {
+  html, body, #bodywrap {
+    line-height: 20px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+  }
+
+  #wikileft, #wikihead-searchform, #wikicmds {
+    background-color: #f7f7f7;
+    opacity: 1;
+    display: block;
+    position: relative;
+    border: none;
+    max-width: none;
+    height: auto;
+    max-height: none;
+    overflow: auto;
+    top: 0px;  
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  #wikicmds-toggle-label,  #wikileft-toggle-label,  #wikihead-search-toggle-label {
+    display: none;
+  }
+  #wikihead-searchform {
+    background-color: transparent;
+    float: right;
+    padding: 4px;
+    right: 6px;
+    top: 6px;
+    width: auto;
+    max-width: none;
+    line-height: inherit;
+    overflow: hidden;
+  }
+  #wikilogo {
+    display: inline-block;
+    margin-top: 4px;
+    padding: 6px;
+  }
+  #wikihead, #wikihead input {
+    font-size: 85%;
+  }
+  
+  #wikihead-recent-changes-link, #wikihead-searchlink{
+    display: inline;
+  }
+  
+  #wikimid {
+    display: table;
+    table-layout:fixed;
+    width: 100%;
+  }
+  #wikisidebar, #wikibody {
+    display: table-cell;
+  }
+  
+  #wikisidebar {
+    position: relative;
+    border-right:1px solid #ccc; 
+    width:167px;
+    vertical-align: top;
+    padding: 0; margin: 0;
+    overflow: auto;
+  }
+  #wikileft {
+    padding:6px; 
+    left: 0;
+    margin: 0 1px 0 0;
+    background: transparent;
+    font-size: 13px;
+    line-height: 17px;
+  }
+  #wikileft a { padding: 0px; }
+  #wikileft li {margin:0px; }
+  
+  #wikibody {
+    padding-left: 10px;
+    vertical-align: top;
+  }
+  
+  #wikicmds {
+    right: 0px;
+    background-color: transparent;
+    float:right;
+    white-space:nowrap; 
+    font-size:13px; 
+  }
+  #wikicmds li { display:inline; margin:0px 5px; padding: 0; border: none; }
+  
+  #wikifoot {
+    padding-left:178px;
+  }
+  
+  #wikifoot.nosidebar {
+    padding-left:10px;
+  }
+  .vspace { margin-top: 20px; }
+  .indent { margin-left:40px; }
+  .outdent { margin-left:40px; text-indent:-40px; }
+  
+  .rtl .indent, .rtl.indent, .rtl .outdent, .rtl.outdent {
+    margin-left:0; margin-right: 40px;
+  }
+    
+  dd { margin-left: 40px; }
+
+  table.horiz td.markup1, table.horiz td.markup2 {
+    display: table-cell; }
+    
+  td.markup1, td.markup2 { padding-left:10px; padding-right:10px; }
+  table.vert td.markup1 { border-bottom:1px solid #ccf; }
+  table.horiz td.markup1 { width:23em; border-right:1px solid #ccf; border-bottom:none; }
+  td.markup1 pre { white-space: pre-wrap; }
+  
+  div.faq p, div.faq pre { margin-left:40px; }
+  div.faq p.question { margin:15px 0 12px 0; }
+  div.faqtoc div.faq p.question 
+    { margin:8px 0 8px 20px; }
+    
+  
+  select, textarea, input {
+    font-size: 14px;
+  }
+  
+  #wikileft-toggle:checked ~ #wikioverlay,
+  #wikihead-search-toggle:checked ~ #wikioverlay,
+  #wikicmds-toggle:checked ~ #wikioverlay {   
+    display: none;
+  }
+
+}
+
+/* These affect the printed appearance of the web view (not the separate
+** print view) of pages.  The sidebar and action links aren't printed. */
+@media print {
+  body { width:auto; margin:0px; padding:8px; }
+  #wikihead, #wikileft, #wikicmds, .footnav { display:none; }
+  #wikifoot { padding:2px; }
+  *[data-pmtoggle="closed"] + * { display: inherit; }
+  *[data-pmtoggle="closed"]::before { content: "\025BE\00A0"; }
+}
+
+/* Fade-in animation */
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+

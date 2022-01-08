@@ -1,0 +1,10 @@
+version=pmwiki-2.2.101 ordered=1 urlencoded=1
+author=Petko
+charset=UTF-8
+csum=added filtering
+ctime=1180200570
+name=SiteAdmin.AuthList
+rev=34
+targets=SiteAdmin.AuthList
+text=(:Summary:[[PmWiki/Page list(s)]] of all pages with access permissions set:)%0aThis page displays the permissions settings for pages that have permissions set.  Fields that say "(protected)" mean that you may need to [[{*$FullName}?action=login | log in]] (e.g., with an administrative password) in order to view them.%0a%0a(:input form action={$PageUrl} method=get:)%0aFilter pages (use "*" to signify "any characters"):\\%0a(:input text name "" placeholder="Type a page name":) (:input submit "" Go:)%0a(:input end:)%0a(:pagelist fmt=#authlist request=1:)%0a%0a(:if false:)%0a[@%0a[[#authlist]]%0a(:template defaults passwd=?* list=all:)%0a(:template first:)%0a|| class='indent authlist' cellspacing=0 cellpadding=0%0a(:template first {=$Group}:)%0a%0a'''{=$Group}:'''%0a%0a(:if exists {=$Group}.GroupAttributes:)%0a{=$Group}.GroupAttributes \%0a[- [[{=$Group}.GroupAttributes | (view)]] -] \%0a[- [[{=$Group}.GroupAttributes?action=attr | (attr)]] -] :%0a||read    ||{{=$Group}.GroupAttributes$PasswdRead}   ||%0a||edit    ||{{=$Group}.GroupAttributes$PasswdEdit}   ||%0a||attr    ||{{=$Group}.GroupAttributes$PasswdAttr}   ||%0a||upload&nbsp;&nbsp;&nbsp; ||{{=$Group}.GroupAttributes$PasswdUpload} ||%0a(:if:)%0a(:template each:)%0a%0a(:if ! equal {=$Name} GroupAttributes :)%0a{=$FullName} \%0a[- [[{=$FullName} | (view) ]] -] \%0a[- [[{=$FullName}?action=attr | (attr) ]] -] :%0a||read    ||{=$PasswdRead} ||%0a||edit    ||{=$PasswdEdit} ||%0a||attr    ||{=$PasswdAttr} ||%0a||upload&nbsp;&nbsp;&nbsp; ||{=$PasswdUpload} ||%0a(:if:)%0a(:template last:)%0a%0aDisplayed {$$PageCount} pages.%0a[[#authlistend]]%0a%0a@]
+time=1501770237
