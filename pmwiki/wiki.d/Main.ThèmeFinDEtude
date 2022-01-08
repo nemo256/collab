@@ -1,0 +1,198 @@
+version=pmwiki-2.2.145 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:95.0) Gecko/20100101 Firefox/95.0
+author=ouadjih
+charset=UTF-8
+csum=
+ctime=1641641452
+host=127.0.0.1
+name=Main.ThèmeFinDEtude
+rev=62
+targets=
+text=>>padding=20px bgcolor=#D3DEDC%3c%3c%0a%0a'''Encadreur :''' LOUNAS RAZIKA[[%3c%3c]]%0a'''Titre:''' Conception et réalisation d'un system de détection de communeautés dans les réseaux sociaux[[%3c%3c]]%0a'''Mots-clés:''' Réseaux sociaux, détéction de communtautés[[%3c%3c]]%0a'''Methodes et logiciels à utiliser:''' PHP,MySql[[%3c%3c]][[%3c%3c]]%0a'''Description:'''[[%3c%3c]]%0a(:table  style="align:center;height:300px; width:50%25; border:0.5px solid gray; background-color:white":)%0a(:cellnr:)%0a   Dans les réseaux sociaux, les communautés représentent des groupes sociaux avec des%0aintérêt communs et des activités communes et qui ost très fortement liés entre eux.[[%3c%3c]] %0aLa problématique de la détection dans les réseaux sociaux est très étudiée vue qu'elle trouve des applications dans plusieurs domaines: marketing sociologie...[[%3c%3c]] %0aCette problématique est traitée par deux grande familles d'algorithmes: les approches ascendante et les approches descendantes. Plusieurs algorithmes existent, par exemple l'algorithme LFM (Large familly Method) s'inspire de la sociologies es familles pour regroupes les nœuds d'un réseau social en communautés et définissant une notion particulière pour le concepts de parents et d'enfants.[[%3c%3c]] L'algorithme LFM admet plusieurs améliorations très récentes dans le but d’avoirs des résultats plus optimisés. Les cas particuliers sont ensuite traités selon plusieurs méthodes. Le but de ce sujet est d’implémenter une approche inspirée de l’algorithme LFM pur la détection des communautés et d"effectuer une comparaison avec l'algorithme original pour étudier les avantages et inconvénients de chaque approche.'%0a(:tableend:)%0a%0a
+time=1641643974
+author:1641643974=ouadjih
+diff:1641643974:1641643894:=8c8%0a%3c (:table  style="align:center;height:300px; width:50%25; border:0.5px solid gray; background-color:white":)%0a---%0a> (:table  style="align:center; width:50%25; border:0.5px solid gray; background-color:white":)%0a13c13%0a%3c Cette problématique est traitée par deux grande familles d'algorithmes: les approches ascendante et les approches descendantes. Plusieurs algorithmes existent, par exemple l'algorithme LFM (Large familly Method) s'inspire de la sociologies es familles pour regroupes les nœuds d'un réseau social en communautés et définissant une notion particulière pour le concepts de parents et d'enfants.[[%3c%3c]] L'algorithme LFM admet plusieurs améliorations très récentes dans le but d’avoirs des résultats plus optimisés. Les cas particuliers sont ensuite traités selon plusieurs méthodes. Le but de ce sujet est d’implémenter une approche inspirée de l’algorithme LFM pur la détection des communautés et d"effectuer une comparaison avec l'algorithme original pour étudier les avantages et inconvénients de chaque approche.'%0a---%0a> Cette problématique est traitée par deux grande familles d'algorithmes: les approches ascendante et les approches descendantes. Plusieurs algorithmes existent, par exemple l'algorithme LFM (Large familly Method) s'inspire de la sociologies es familles pour regroupes les nœuds d'un réseau social en communautés et définissant une notion particulière pour le concepts de parents et d'enfants[[%3c%3c]] L'algorithme LFM admet plusieurs améliorations très récentes dans le but d’avoirs des résultats plus optimisés. Les cas particuliers sont ensuite traités selon plusieurs méthodes. Le but de ce sujet est d’implémenter une approche inspirée de l’algorithme LFM pur la détection des communautés et d"effectuer une comparaison avec l'algorithme original pour étudier les avantages et inconvénients de chaque approche.'%0a
+host:1641643974=127.0.0.1
+author:1641643894=ouadjih
+diff:1641643894:1641643858:=13c13%0a%3c Cette problématique est traitée par deux grande familles d'algorithmes: les approches ascendante et les approches descendantes. Plusieurs algorithmes existent, par exemple l'algorithme LFM (Large familly Method) s'inspire de la sociologies es familles pour regroupes les nœuds d'un réseau social en communautés et définissant une notion particulière pour le concepts de parents et d'enfants[[%3c%3c]] L'algorithme LFM admet plusieurs améliorations très récentes dans le but d’avoirs des résultats plus optimisés. Les cas particuliers sont ensuite traités selon plusieurs méthodes. Le but de ce sujet est d’implémenter une approche inspirée de l’algorithme LFM pur la détection des communautés et d"effectuer une comparaison avec l'algorithme original pour étudier les avantages et inconvénients de chaque approche.'%0a---%0a> Cette problématique est traitée par deux grande familles d'algorithmes: les approches ascendante et les approches descendantes. Plusieurs algorithmes existent, par exemple l'algorithme LFM (Large familly Method) s'inspire de la sociologies es familles pour regroupes les nœuds d'un réseau social en communautés et définissant une notion particulière pour le concepts de parents et d'enfants L'algorithme LFM admet plusieurs améliorations très récentes dans le but d’avoirs des résultats plus optimisés. Les cas particuliers sont ensuite traités selon plusieurs méthodes. Le but de ce sujet est d’implémenter une approche inspirée de l’algorithme LFM pur la détection des communautés et d"effectuer une comparaison avec l'algorithme original pour étudier les avantages et inconvénients de chaque approche.'%0a
+host:1641643894=127.0.0.1
+author:1641643858=ouadjih
+diff:1641643858:1641643844:=12c12%0a%3c La problématique de la détection dans les réseaux sociaux est très étudiée vue qu'elle trouve des applications dans plusieurs domaines: marketing sociologie...[[%3c%3c]] %0a---%0a> La problématique de la détection dans les réseaux sociaux est très étudiée vue qu'elle trouve des applications dans plusieurs domaines: marketing sociologie...%0a
+host:1641643858=127.0.0.1
+author:1641643844=ouadjih
+diff:1641643844:1641643814:=11c11%0a%3c intérêt communs et des activités communes et qui ost très fortement liés entre eux.[[%3c%3c]] %0a---%0a> intérêt communs et des activités communes et qui ost très fortement liés entre eux. %0a
+host:1641643844=127.0.0.1
+author:1641643814=ouadjih
+diff:1641643814:1641643789:=8c8%0a%3c (:table  style="align:center; width:50%25; border:0.5px solid gray; background-color:white":)%0a---%0a> (:table  style="align:center; width:50%25; font-style:italic; border:0.5px solid black; background-color:white":)%0a
+host:1641643814=127.0.0.1
+author:1641643789=ouadjih
+diff:1641643789:1641643767:=8c8%0a%3c (:table  style="align:center; width:50%25; font-style:italic; border:0.5px solid black; background-color:white":)%0a---%0a> (:table  style="align:center; width:50%25; font-style:italic; border:1px solid black; background-color:white":)%0a
+host:1641643789=127.0.0.1
+author:1641643767=ouadjih
+diff:1641643767:1641643731:=8c8%0a%3c (:table  style="align:center; width:50%25; font-style:italic; border:1px solid black; background-color:white":)%0a---%0a> (:table style="width:50%25;font-style:italic; border:1px solid black; background-color:white":)%0a
+host:1641643767=127.0.0.1
+author:1641643731=ouadjih
+diff:1641643731:1641643718:=8a9%0a> >>padding=2px bgcolor=#D3DEDC%3c%3c%0a
+host:1641643731=127.0.0.1
+author:1641643718=ouadjih
+diff:1641643718:1641643707:=9c9%0a%3c >>padding=2px bgcolor=#D3DEDC%3c%3c%0a---%0a> >>margin=10px bgcolor=#D3DEDC%3c%3c%0a
+host:1641643718=127.0.0.1
+author:1641643707=ouadjih
+diff:1641643707:1641643697:=9c9%0a%3c >>margin=10px bgcolor=#D3DEDC%3c%3c%0a---%0a> >>padding=10px bgcolor=#D3DEDC%3c%3c%0a
+host:1641643707=127.0.0.1
+author:1641643697=ouadjih
+diff:1641643697:1641643684:=9c9%0a%3c >>padding=10px bgcolor=#D3DEDC%3c%3c%0a---%0a> >>padding=10px%3c%3c%0a
+host:1641643697=127.0.0.1
+author:1641643684=ouadjih
+diff:1641643684:1641643672:=9c9%0a%3c >>padding=10px%3c%3c%0a---%0a> >>margin=10px%3c%3c%0a
+host:1641643684=127.0.0.1
+author:1641643672=ouadjih
+diff:1641643672:1641643659:=9d8%0a%3c >>margin=10px%3c%3c%0a10a10%0a> >>margin=10px%3c%3c%0a
+host:1641643672=127.0.0.1
+author:1641643659=ouadjih
+diff:1641643659:1641643618:=10c10%0a%3c >>margin=10px%3c%3c%0a---%0a> >>padding=500px%3c%3c%0a
+host:1641643659=127.0.0.1
+author:1641643618=ouadjih
+diff:1641643618:1641643605:=10c10%0a%3c >>padding=500px%3c%3c%0a---%0a> >>padding=5px%3c%3c%0a
+host:1641643618=127.0.0.1
+author:1641643605=ouadjih
+diff:1641643605:1641643573:=8c8%0a%3c (:table style="width:50%25;font-style:italic; border:1px solid black; background-color:white":)%0a---%0a> (:table style="padding-left:5px; padding-right:5px;width:50%25;font-style:italic; border:1px solid black; background-color:white":)%0a10c10%0a%3c >>padding=5px%3c%3c%0a---%0a> %0a
+host:1641643605=127.0.0.1
+author:1641643573=ouadjih
+diff:1641643573:1641643557:=8c8%0a%3c (:table style="padding-left:5px; padding-right:5px;width:50%25;font-style:italic; border:1px solid black; background-color:white":)%0a---%0a> (:table style="padding:5px; padding-left:5px; padding-right:5px;width:50%25;font-style:italic; border:1px solid black; background-color:white":)%0a
+host:1641643573=127.0.0.1
+author:1641643557=ouadjih
+diff:1641643557:1641643534:=8c8%0a%3c (:table style="padding:5px; padding-left:5px; padding-right:5px;width:50%25;font-style:italic; border:1px solid black; background-color:white":)%0a---%0a> (:table style="padding:5px 5px;width:50%25;font-style:italic; border:1px solid black; background-color:white":)%0a
+host:1641643557=127.0.0.1
+author:1641643534=ouadjih
+diff:1641643534:1641643517:=8c8%0a%3c (:table style="padding:5px 5px;width:50%25;font-style:italic; border:1px solid black; background-color:white":)%0a---%0a> (:table style=" margin-left:5px ;margin-right:5px ;padding:5px;width:50%25;font-style:italic; border:1px solid black; background-color:white":)%0a
+host:1641643534=127.0.0.1
+author:1641643517=ouadjih
+diff:1641643517:1641643490:=8c8%0a%3c (:table style=" margin-left:5px ;margin-right:5px ;padding:5px;width:50%25;font-style:italic; border:1px solid black; background-color:white":)%0a---%0a> (:table style=" padding:5px;width:50%25;font-style:italic; border:1px solid black; background-color:white":)%0a
+host:1641643517=127.0.0.1
+author:1641643490=ouadjih
+diff:1641643490:1641643475:=8c8%0a%3c (:table style=" padding:5px;width:50%25;font-style:italic; border:1px solid black; background-color:white":)%0a---%0a> (:table style=" width:50%25;font-style:italic; border:1px solid black; background-color:white":)%0a
+host:1641643490=127.0.0.1
+author:1641643475=ouadjih
+diff:1641643475:1641643457:=8c8%0a%3c (:table style=" width:50%25;font-style:italic; border:1px solid black; background-color:white":)%0a---%0a> (:table style="font-style:italic; border:1px solid black; background-color:white":)%0a
+host:1641643475=127.0.0.1
+author:1641643457=ouadjih
+diff:1641643457:1641643425:=10,12c10,12%0a%3c %0a%3c    Dans les réseaux sociaux, les communautés représentent des groupes sociaux avec des%0a%3c intérêt communs et des activités communes et qui ost très fortement liés entre eux. %0a---%0a> DDD%0a>    'Dans les réseaux sociaux, les communautés représentent des groupes sociaux avec des%0a> intérêtcommuns et des activités communes et qui ost très fortement liés entre eux. %0a14c14%0a%3c Cette problématique est traitée par deux grande familles d'algorithmes: les approches ascendante et les approches descendantes. Plusieurs algorithmes existent, par exemple l'algorithme LFM (Large familly Method) s'inspire de la sociologies es familles pour regroupes les nœuds d'un réseau social en communautés et définissant une notion particulière pour le concepts de parents et d'enfants L'algorithme LFM admet plusieurs améliorations très récentes dans le but d’avoirs des résultats plus optimisés. Les cas particuliers sont ensuite traités selon plusieurs méthodes. Le but de ce sujet est d’implémenter une approche inspirée de l’algorithme LFM pur la détection des communautés et d"effectuer une comparaison avec l'algorithme original pour étudier les avantages et inconvénients de chaque approche.'%0a---%0a> Cette problématique est traitée par deux grande familles d'algorithmes: les approches ascendante et les approches descendantes. Plusieurs algorithmes existent, par exemple l'algorithme LFM(Large familly Method) s'inspire de la sociologies es familles pour regroupes les noeuds d'un réseau social en communautés et définissant une notion particulière pour le concepts de parents et d'enfants L'algorithme LFM admet plusieurs améliorations très récentes dans le but d’avoirs des résultats plus optimisés. Les cas particuliers sont ensuite traités selon plusieurs méthodes. Le but de ce sujet est d’implémenter une approche inspirée de l’algorithme LFM pur la détection des communautés et d"effectuer une comparaison avec l'algorithme original pour étudier les avantages et inconvénients de chaque approche.'%0a
+host:1641643457=127.0.0.1
+author:1641643425=ouadjih
+diff:1641643425:1641643410:=11c11%0a%3c    'Dans les réseaux sociaux, les communautés représentent des groupes sociaux avec des%0a---%0a>    Dans les réseaux sociaux, les communautés représentent des groupes sociaux avec des%0a14c14%0a%3c Cette problématique est traitée par deux grande familles d'algorithmes: les approches ascendante et les approches descendantes. Plusieurs algorithmes existent, par exemple l'algorithme LFM(Large familly Method) s'inspire de la sociologies es familles pour regroupes les noeuds d'un réseau social en communautés et définissant une notion particulière pour le concepts de parents et d'enfants L'algorithme LFM admet plusieurs améliorations très récentes dans le but d’avoirs des résultats plus optimisés. Les cas particuliers sont ensuite traités selon plusieurs méthodes. Le but de ce sujet est d’implémenter une approche inspirée de l’algorithme LFM pur la détection des communautés et d"effectuer une comparaison avec l'algorithme original pour étudier les avantages et inconvénients de chaque approche.'%0a---%0a> Cette problématique est traitée par deux grande familles d'algorithmes: les approches ascendante et les approches descendantes. Plusieurs algorithmes existent, par exemple l'algorithme LFM(Large familly Method) s'inspire de la sociologies es familles pour regroupes les noeuds d'un réseau social en communautés et définissant une notion particulière pour le concepts de parents et d'enfants L'algorithme LFM admet plusieurs améliorations très récentes dans le but d’avoirs des résultats plus optimisés. Les cas particuliers sont ensuite traités selon plusieurs méthodes. Le but de ce sujet est d’implémenter une approche inspirée de l’algorithme LFM pur la détection des communautés et d"effectuer une comparaison avec l'algorithme original pour étudier les avantages et inconvénients de chaque approche.%0a
+host:1641643425=127.0.0.1
+author:1641643410=ouadjih
+diff:1641643410:1641643397:=10d9%0a%3c DDD%0a
+host:1641643410=127.0.0.1
+author:1641643397=ouadjih
+diff:1641643397:1641643359:=10,13c10,13%0a%3c    Dans les réseaux sociaux, les communautés représentent des groupes sociaux avec des%0a%3c intérêtcommuns et des activités communes et qui ost très fortement liés entre eux. %0a%3c La problématique de la détection dans les réseaux sociaux est très étudiée vue qu'elle trouve des applications dans plusieurs domaines: marketing sociologie...%0a%3c Cette problématique est traitée par deux grande familles d'algorithmes: les approches ascendante et les approches descendantes. Plusieurs algorithmes existent, par exemple l'algorithme LFM(Large familly Method) s'inspire de la sociologies es familles pour regroupes les noeuds d'un réseau social en communautés et définissant une notion particulière pour le concepts de parents et d'enfants L'algorithme LFM admet plusieurs améliorations très récentes dans le but d’avoirs des résultats plus optimisés. Les cas particuliers sont ensuite traités selon plusieurs méthodes. Le but de ce sujet est d’implémenter une approche inspirée de l’algorithme LFM pur la détection des communautés et d"effectuer une comparaison avec l'algorithme original pour étudier les avantages et inconvénients de chaque approche.%0a---%0a>     Dans les réseaux sociaux, les communautés représentent des groupes sociaux avec des%0a> [[%3c%3c]]intérêtcommuns et des activités communes et qui ost très fortement liés entre eux.[[%3c%3c]] %0a>     La problématique de la détection dans les réseaux sociaux est très étudiée vue qu'elle trouve [[%3c%3c]] des applications dans plusieurs domaines: marketing sociologie...[[%3c%3c]] %0a> Cette problématique est traitée par deux grande familles d'algorithmes: les approches [[%3c%3c]] ascendante et les approches descendantes. Plusieurs algorithmes existent, par exemple l'algorithme LFM(Large familly Method) s'inspire de la sociologies es familles pour regroupes les noeuds d'un réseau social en communautés et définissant une notion particulière pour le concepts de parents et d'enfants L'algorithme LFM admet plusieurs améliorations très récentes dans le but d’avoirs des résultats plus optimisés. Les cas particuliers sont ensuite traités selon plusieurs méthodes. Le but de ce sujet est d’implémenter une approche inspirée de l’algorithme LFM pur la détection des communautés et d"effectuer une comparaison avec l'algorithme original pour étudier les avantages et inconvénients de chaque approche.%0a
+host:1641643397=127.0.0.1
+author:1641643359=ouadjih
+diff:1641643359:1641643205:=10,13c10,14%0a%3c     Dans les réseaux sociaux, les communautés représentent des groupes sociaux avec des%0a%3c [[%3c%3c]]intérêtcommuns et des activités communes et qui ost très fortement liés entre eux.[[%3c%3c]] %0a%3c     La problématique de la détection dans les réseaux sociaux est très étudiée vue qu'elle trouve [[%3c%3c]] des applications dans plusieurs domaines: marketing sociologie...[[%3c%3c]] %0a%3c Cette problématique est traitée par deux grande familles d'algorithmes: les approches [[%3c%3c]] ascendante et les approches descendantes. Plusieurs algorithmes existent, par exemple l'algorithme LFM(Large familly Method) s'inspire de la sociologies es familles pour regroupes les noeuds d'un réseau social en communautés et définissant une notion particulière pour le concepts de parents et d'enfants L'algorithme LFM admet plusieurs améliorations très récentes dans le but d’avoirs des résultats plus optimisés. Les cas particuliers sont ensuite traités selon plusieurs méthodes. Le but de ce sujet est d’implémenter une approche inspirée de l’algorithme LFM pur la détection des communautés et d"effectuer une comparaison avec l'algorithme original pour étudier les avantages et inconvénients de chaque approche.%0a---%0a>     Dans les réseaux sociaux, les communautés représentent des groupes[[%3c%3c]] %0a>  sociaux avec des intérêt communs et des activités communes et qui ost très fortement%0a>  liés entre eux. La problématique de la détection dans les réseaux sociaux[[%3c%3c]]%0a>  est très étudiée vue qu'elle trouve des applications dans plusieurs domaines: marketing sociologie...[[%3c%3c]]%0a>     Cette problématique est traitée par deux grande familles d'algorithmes: les approches ascendante et les approches descendantes. Plusieurs algorithmes existent, par exemple l'algorithme LFM(Large familly Method) s'inspire de la sociologies es familles pour regroupes les noeuds d'un réseau social en communautés et définissant une notion particulière pour le concepts de parents et d'enfants L'algorithme LFM admet plusieurs améliorations très récentes dans le but d’avoirs des résultats plus optimisés. Les cas particuliers sont ensuite traités selon plusieurs méthodes. Le but de ce sujet est d’implémenter une approche inspirée de l’algorithme LFM pur la détection des communautés et d"effectuer une comparaison avec l'algorithme original pour étudier les avantages et inconvénients de chaque approche.%0a
+host:1641643359=127.0.0.1
+author:1641643205=ouadjih
+diff:1641643205:1641642742:=9c9%0a%3c (:cellnr:)%0a---%0a> %0a14c14,16%0a%3c     Cette problématique est traitée par deux grande familles d'algorithmes: les approches ascendante et les approches descendantes. Plusieurs algorithmes existent, par exemple l'algorithme LFM(Large familly Method) s'inspire de la sociologies es familles pour regroupes les noeuds d'un réseau social en communautés et définissant une notion particulière pour le concepts de parents et d'enfants L'algorithme LFM admet plusieurs améliorations très récentes dans le but d’avoirs des résultats plus optimisés. Les cas particuliers sont ensuite traités selon plusieurs méthodes. Le but de ce sujet est d’implémenter une approche inspirée de l’algorithme LFM pur la détection des communautés et d"effectuer une comparaison avec l'algorithme original pour étudier les avantages et inconvénients de chaque approche.%0a---%0a>  %0a> %0a> %0a
+host:1641643205=127.0.0.1
+author:1641642742=ouadjih
+diff:1641642742:1641642709:=9c9%0a%3c %0a---%0a> (:cellnr:)%0a14,15d13%0a%3c  %0a%3c %0a
+host:1641642742=127.0.0.1
+author:1641642709=ouadjih
+diff:1641642709:1641642692:=10c10%0a%3c     Dans les réseaux sociaux, les communautés représentent des groupes[[%3c%3c]] %0a---%0a>     Dans les réseaux sociaux, les communautés représentent des groupes [[%3c%3c]] %0a12c12%0a%3c  liés entre eux. La problématique de la détection dans les réseaux sociaux[[%3c%3c]]%0a---%0a>  liés entre eux. La problématique de la détection dans les réseaux sociaux [[%3c%3c]]%0a
+host:1641642709=127.0.0.1
+author:1641642692=ouadjih
+diff:1641642692:1641642681:=
+host:1641642692=127.0.0.1
+author:1641642681=ouadjih
+diff:1641642681:1641642667:=8c8%0a%3c (:table style="font-style:italic; border:1px solid black; background-color:white":)%0a---%0a> (:table style="font-style:italic; border:1px solid black; background-color:#lightgray":)%0a
+host:1641642681=127.0.0.1
+author:1641642667=ouadjih
+diff:1641642667:1641642656:=8c8%0a%3c (:table style="font-style:italic; border:1px solid black; background-color:#lightgray":)%0a---%0a> (:table style="font-style:italic; border:1px solid blue; background-color:#lightgray":)%0a
+host:1641642667=127.0.0.1
+author:1641642656=ouadjih
+diff:1641642656:1641642643:=8c8%0a%3c (:table style="font-style:italic; border:1px solid blue; background-color:#lightgray":)%0a---%0a> (:table style="font-style:italic; border:1px solid blue; background-color:#ffffcc ":)%0a
+host:1641642656=127.0.0.1
+author:1641642643=ouadjih
+diff:1641642643:1641642635:=13c13%0a%3c  est très étudiée vue qu'elle trouve des applications dans plusieurs domaines: marketing sociologie...[[%3c%3c]]%0a---%0a>  est très étudiée vue qu'elle trouve des applications dans plusieurs domaines: marketing sociologie...[[%3c%3c]]||%0a
+host:1641642643=127.0.0.1
+author:1641642635=ouadjih
+diff:1641642635:1641642608:=10c10%0a%3c     Dans les réseaux sociaux, les communautés représentent des groupes [[%3c%3c]] %0a---%0a> Dans les réseaux sociaux, les communautés représentent des groupes [[%3c%3c]] %0a12,13c12,13%0a%3c  liés entre eux. La problématique de la détection dans les réseaux sociaux [[%3c%3c]]%0a%3c  est très étudiée vue qu'elle trouve des applications dans plusieurs domaines: marketing sociologie...[[%3c%3c]]||%0a---%0a> liés entre eux. La problématique de la détection dans les réseaux sociaux [[%3c%3c]]%0a> est très étudiée vue qu'elle trouve des applications dans plusieurs domaines: marketing sociologie...[[%3c%3c]]||%0a
+host:1641642635=127.0.0.1
+author:1641642608=ouadjih
+diff:1641642608:1641642591:=11c11%0a%3c  sociaux avec des intérêt communs et des activités communes et qui ost très fortement%0a---%0a>  sociaux avec des intérêt communs et des activités communes et qui ost très fortement[[%3c%3c]]%0a
+host:1641642608=127.0.0.1
+author:1641642591=ouadjih
+diff:1641642591:1641642541:=11,13c11,14%0a%3c  sociaux avec des intérêt communs et des activités communes et qui ost très fortement[[%3c%3c]]%0a%3c liés entre eux. La problématique de la détection dans les réseaux sociaux [[%3c%3c]]%0a%3c est très étudiée vue qu'elle trouve des applications dans plusieurs domaines: marketing sociologie...[[%3c%3c]]||%0a---%0a>  sociaux (ex familles, groupes d'amis,etc )avec des intérêt communs et des activités [[%3c%3c]]%0a> communes et qui ost très fortement liés entre eux. La problématique de la détection[[%3c%3c]] %0a> dans les réseaux sociaux est très étudiée vue qu'elle trouve des applications dans plusieurs domaines:%0a> marketing sociologie...[[%3c%3c]]||%0a
+host:1641642591=127.0.0.1
+author:1641642541=ouadjih
+diff:1641642541:1641642524:=10c10,11%0a%3c Dans les réseaux sociaux, les communautés représentent des groupes [[%3c%3c]] %0a---%0a> %0a> ||Dans les réseaux sociaux, les communautés représentent des groupes[[%3c%3c]] %0a
+host:1641642541=127.0.0.1
+author:1641642524=ouadjih
+diff:1641642524:1641642516:=10a11%0a> ||%25padding=20px%25%0a
+host:1641642524=127.0.0.1
+author:1641642516=ouadjih
+diff:1641642516:1641642499:=11,12c11%0a%3c ||%25padding=20px%25%0a%3c ||Dans les réseaux sociaux, les communautés représentent des groupes[[%3c%3c]] %0a---%0a> %25padding=20px%25||Dans les réseaux sociaux, les communautés représentent des groupes[[%3c%3c]] %0a
+host:1641642516=127.0.0.1
+author:1641642499=ouadjih
+diff:1641642499:1641642476:=11c11%0a%3c %25padding=20px%25||Dans les réseaux sociaux, les communautés représentent des groupes[[%3c%3c]] %0a---%0a> %25padding=20px%25Dans les réseaux sociaux, les communautés représentent des groupes[[%3c%3c]] %0a15c15%0a%3c marketing sociologie...[[%3c%3c]]||%0a---%0a> marketing sociologie...[[%3c%3c]]%0a
+host:1641642499=127.0.0.1
+author:1641642476=ouadjih
+diff:1641642476:1641642377:=11,14c11,13%0a%3c %25padding=20px%25Dans les réseaux sociaux, les communautés représentent des groupes[[%3c%3c]] %0a%3c  sociaux (ex familles, groupes d'amis,etc )avec des intérêt communs et des activités [[%3c%3c]]%0a%3c communes et qui ost très fortement liés entre eux. La problématique de la détection[[%3c%3c]] %0a%3c dans les réseaux sociaux est très étudiée vue qu'elle trouve des applications dans plusieurs domaines:%0a---%0a> %25padding=20px%25Dans les réseaux socieaux, les communtautés représentent des groupes socieaux (ex familles, groupes d'amis,etc )[[%3c%3c]] %0a> avec des intérêt communs et des activités communes et qui osnt trés fortement liés entre eux. La problématique %0a> de la détéction[[%3c%3c]] dans les réseaux sociauxest trés étudiée vue qu'elle trouve des applications dans plusieurs domaines:%0a
+host:1641642476=127.0.0.1
+author:1641642377=ouadjih
+diff:1641642377:1641642369:=11c11%0a%3c %25padding=20px%25Dans les réseaux socieaux, les communtautés représentent des groupes socieaux (ex familles, groupes d'amis,etc )[[%3c%3c]] %0a---%0a> %25margin=20px%25Dans les réseaux socieaux, les communtautés représentent des groupes socieaux (ex familles, groupes d'amis,etc )[[%3c%3c]] %0a
+host:1641642377=127.0.0.1
+author:1641642369=ouadjih
+diff:1641642369:1641642347:=8c8%0a%3c (:table style="font-style:italic; border:1px solid blue; background-color:#ffffcc ":)%0a---%0a> (:table style="font-style:italic; margin=20px; border:1px solid blue; background-color:#ffffcc ":)%0a10,11c10%0a%3c %0a%3c %25margin=20px%25Dans les réseaux socieaux, les communtautés représentent des groupes socieaux (ex familles, groupes d'amis,etc )[[%3c%3c]] %0a---%0a> Dans les réseaux socieaux, les communtautés représentent des groupes socieaux (ex familles, groupes d'amis,etc )[[%3c%3c]] %0a
+host:1641642369=127.0.0.1
+author:1641642347=ouadjih
+diff:1641642347:1641642334:=8c8%0a%3c (:table style="font-style:italic; margin=20px; border:1px solid blue; background-color:#ffffcc ":)%0a---%0a> (:table style="font-style:italic;padding=20px; border:1px solid blue; background-color:#ffffcc ":)%0a
+host:1641642347=127.0.0.1
+author:1641642334=ouadjih
+diff:1641642334:1641642317:=8c8%0a%3c (:table style="font-style:italic;padding=20px; border:1px solid blue; background-color:#ffffcc ":)%0a---%0a> (:table style="font-style:italic; border:1px solid blue; background-color:#ffffcc padding=20px":)%0a
+host:1641642334=127.0.0.1
+author:1641642317=ouadjih
+diff:1641642317:1641642292:=8c8%0a%3c (:table style="font-style:italic; border:1px solid blue; background-color:#ffffcc padding=20px":)%0a---%0a> (:table style="font-style:italic; border:1px solid blue; background-color:#ffffcc":)%0a
+host:1641642317=127.0.0.1
+author:1641642292=ouadjih
+diff:1641642292:1641642278:=11,12c11,12%0a%3c avec des intérêt communs et des activités communes et qui osnt trés fortement liés entre eux. La problématique %0a%3c de la détéction[[%3c%3c]] dans les réseaux sociauxest trés étudiée vue qu'elle trouve des applications dans plusieurs domaines:%0a---%0a> avec des intérêt communs et des activités communes et qui osnt trés fortement liés entre eux. La problématique [[%3c%3c]]%0a> de la détéction dans les réseaux sociauxest trés étudiée vue qu'elle trouve des applications dans plusieurs domaines:%0a
+host:1641642292=127.0.0.1
+author:1641642278=ouadjih
+diff:1641642278:1641642258:=11,12c11,12%0a%3c avec des intérêt communs et des activités communes et qui osnt trés fortement liés entre eux. La problématique [[%3c%3c]]%0a%3c de la détéction dans les réseaux sociauxest trés étudiée vue qu'elle trouve des applications dans plusieurs domaines:%0a---%0a> avec des intérêt communs et des activités communes et qui osnt trés fortement liés entre eux. La problématique %0a> de la détéction dans les réseaux sociauxest trés étudiée [[%3c%3c]]vue qu'elle trouve des applications dans plusieurs domaines:%0a
+host:1641642278=127.0.0.1
+author:1641642258=ouadjih
+diff:1641642258:1641641986:=10,13c10%0a%3c Dans les réseaux socieaux, les communtautés représentent des groupes socieaux (ex familles, groupes d'amis,etc )[[%3c%3c]] %0a%3c avec des intérêt communs et des activités communes et qui osnt trés fortement liés entre eux. La problématique %0a%3c de la détéction dans les réseaux sociauxest trés étudiée [[%3c%3c]]vue qu'elle trouve des applications dans plusieurs domaines:%0a%3c marketing sociologie...[[%3c%3c]]%0a---%0a> Everything after the above line is styled with green italic text,%0a
+host:1641642258=127.0.0.1
+author:1641641986=ouadjih
+diff:1641641986:1641641779:=6,13c6%0a%3c '''Methodes et logiciels à utiliser:''' PHP,MySql[[%3c%3c]][[%3c%3c]]%0a%3c '''Description:'''[[%3c%3c]]%0a%3c (:table style="font-style:italic; border:1px solid blue; background-color:#ffffcc":)%0a%3c (:cellnr:)%0a%3c Everything after the above line is styled with green italic text,%0a%3c %0a%3c (:tableend:)%0a%3c %0a---%0a> '''Methodes et logiciels à utiliser:''' PHP,MySql[[%3c%3c]]%0a
+host:1641641986=127.0.0.1
+author:1641641779=ouadjih
+diff:1641641779:1641641758:=3,6c3,6%0a%3c '''Encadreur :''' LOUNAS RAZIKA[[%3c%3c]]%0a%3c '''Titre:''' Conception et réalisation d'un system de détection de communeautés dans les réseaux sociaux[[%3c%3c]]%0a%3c '''Mots-clés:''' Réseaux sociaux, détéction de communtautés[[%3c%3c]]%0a%3c '''Methodes et logiciels à utiliser:''' PHP,MySql[[%3c%3c]]%0a---%0a> '''Encadreur :''' LOUNAS RAZIKA%0a> '''Titre:''' Conception et réalisation d'un system de détection de communeautés dans les réseaux sociaux%0a> '''Mots-clés:''' Réseaux sociaux, détéction de communtautés%0a> '''Methodes et logiciels à utiliser:''' PHP,MySql%0a
+host:1641641779=127.0.0.1
+author:1641641758=ouadjih
+diff:1641641758:1641641625:=3,6c3%0a%3c '''Encadreur :''' LOUNAS RAZIKA%0a%3c '''Titre:''' Conception et réalisation d'un system de détection de communeautés dans les réseaux sociaux%0a%3c '''Mots-clés:''' Réseaux sociaux, détéction de communtautés%0a%3c '''Methodes et logiciels à utiliser:''' PHP,MySql%0a---%0a> '''Encadreur :'''LOUNAS RAZIKA%0a
+host:1641641758=127.0.0.1
+author:1641641625=ouadjih
+diff:1641641625:1641641611:=1c1%0a%3c >>padding=20px bgcolor=#D3DEDC%3c%3c%0a---%0a> >>padding=20px bgcolor=#FFEFEF%3c%3c%0a
+host:1641641625=127.0.0.1
+author:1641641611=ouadjih
+diff:1641641611:1641641592:=1c1%0a%3c >>padding=20px bgcolor=#FFEFEF%3c%3c%0a---%0a> >>padding=20px bgcolor=#lD3DEDC %3c%3c%0a
+host:1641641611=127.0.0.1
+author:1641641592=ouadjih
+diff:1641641592:1641641575:=1,3c1,3%0a%3c >>padding=20px bgcolor=#lD3DEDC %3c%3c%0a%3c %0a%3c '''Encadreur :'''LOUNAS RAZIKA%0a---%0a> >>padding=20px color=#lD3DEDC bgcolor=#44556f%3c%3c%0a> %0a> '''Encadreur :''' LOUNAS RAZIKA%0a
+host:1641641592=127.0.0.1
+author:1641641575=ouadjih
+diff:1641641575:1641641526:=1c1%0a%3c >>padding=20px color=#lD3DEDC bgcolor=#44556f%3c%3c%0a---%0a> >>padding=20px color=lightgray bgcolor=#44556f%3c%3c%0a
+host:1641641575=127.0.0.1
+author:1641641526=ouadjih
+diff:1641641526:1641641504:=1,3c1,4%0a%3c >>padding=20px color=lightgray bgcolor=#44556f%3c%3c%0a%3c %0a%3c '''Encadreur :''' LOUNAS RAZIKA%0a---%0a> %0a> >>padding=20px color=white bgcolor=#44556f%3c%3c%0a> %0a> %25bgcolor:lightgrey%25'''Encadreur :''' LOUNAS RAZIKA%0a
+host:1641641526=127.0.0.1
+author:1641641504=ouadjih
+diff:1641641504:1641641467:=1,3d0%0a%3c %0a%3c >>padding=20px color=white bgcolor=#44556f%3c%3c%0a%3c %0a
+host:1641641504=127.0.0.1
+author:1641641467=ouadjih
+diff:1641641467:1641641452:=1c1%0a%3c %25bgcolor:lightgrey%25'''Encadreur :''' LOUNAS RAZIKA%0a---%0a> '''Encadreur :''' LOUNAS RAZIKA%0a
+host:1641641467=127.0.0.1
+author:1641641452=ouadjih
+diff:1641641452:1641641452:=1d0%0a%3c '''Encadreur :''' LOUNAS RAZIKA%0a
+host:1641641452=127.0.0.1
