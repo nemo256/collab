@@ -1,0 +1,21 @@
+version=pmwiki-2.2.145 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64; rv:95.0) Gecko/20100101 Firefox/95.0
+author=
+charset=UTF-8
+csum=
+ctime=1641648590
+host=::1
+name=Main.Loisirs
+rev=3
+targets=Main.HomePage,Main.CV-Boudraa,Main.CV-Neggazi,Main.ProgrammeDAnnee,Main.ThèmeFinDEtude,Main.Loisirs
+text=>> class=navbar %3c%3c%0a|| %25class=navlink color=white%25[[HomePage]] || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a>>%3c%3c%0a%0a(:stylesheet:)%0a  .navbar {%0a    margin: 20px;%0a    padding: 20px;%0a    background-color: #44556f;%0a}%0a  .navlink {%0a    padding: 10px;%0a    background-color: none;%0a    text-decoration: none;%0a    font-weight: bold;%0a    border: 2px solid;%0a    border-color: white;%0a}%0a  .navlink:hover {%0a    background-color: gold;%0a    border-color: gold;%0a}%0a(:stylesheetend:)
+time=1641648798
+author:1641648798=
+diff:1641648798:1641648609:=2c2%0a%3c || %25class=navlink color=white%25[[HomePage]] || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a---%0a> || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a
+host:1641648798=::1
+author:1641648609=
+diff:1641648609:1641648590:=3,23c3%0a%3c >>%3c%3c%0a%3c %0a%3c (:stylesheet:)%0a%3c   .navbar {%0a%3c     margin: 20px;%0a%3c     padding: 20px;%0a%3c     background-color: #44556f;%0a%3c }%0a%3c   .navlink {%0a%3c     padding: 10px;%0a%3c     background-color: none;%0a%3c     text-decoration: none;%0a%3c     font-weight: bold;%0a%3c     border: 2px solid;%0a%3c     border-color: white;%0a%3c }%0a%3c   .navlink:hover {%0a%3c     background-color: gold;%0a%3c     border-color: gold;%0a%3c }%0a%3c (:stylesheetend:)%0a\ No newline at end of file%0a---%0a> >>%3c%3c%0a\ No newline at end of file%0a
+host:1641648609=::1
+author:1641648590=
+diff:1641648590:1641648590:=1,3d0%0a%3c >> class=navbar %3c%3c%0a%3c || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a%3c >>%3c%3c%0a\ No newline at end of file%0a
+host:1641648590=::1

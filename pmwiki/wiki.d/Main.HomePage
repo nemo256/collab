@@ -5,10 +5,100 @@ charset=UTF-8
 csum=
 host=::1
 name=Main.HomePage
-rev=258
-targets=Main.CV-Boudraa,Main.CV-Neggazi,Main.ProgrammeDAnnee,Main.ThèmeFinDEtude,Main.Loisirs
-text=%0a>> class=navbar %3c%3c%0a|| %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a>>%3c%3c%0a%0a''Bonjour, nous sommes Mohamed Ouadjih Boudraa et Amine Neggazi. Nous sommes des étudiants en 2ème année master technologie d'information à l'université M'hamed Bougara Boumerdes.''%0a%0a%0a(:stylesheet:)%0a  .navbar {%0a    margin: 20px;%0a    padding: 20px;%0a    background-color: #44556f;%0a}%0a  .navlink {%0a}%0a(:stylesheetend:)%0a
-time=1641646203
+rev=288
+targets=Main.HomePage,Main.CV-Boudraa,Main.CV-Neggazi,Main.ProgrammeDAnnee,Main.ThèmeFinDEtude,Main.Loisirs
+text=>> class=navbar %3c%3c%0a|| %25class=navlink color=white%25[[HomePage]] || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a>>%3c%3c%0a%0a%25center%25[[%3c%3c]][[%3c%3c]] [+++'''Welcome to our PmWiki Webpage'''+++] [[%3c%3c]][[%3c%3c]]%0a%0a%25center%25''Bonjour, nous sommes Mohamed Ouadjih Boudraa et Amine Neggazi. Nous sommes des étudiants en 2ème année master technologie d'information à l'université M'hamed Bougara Boumerdes.'' [[%3c%3c]]%0a%0a%25center%25https://media0.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif?cid=ecf05e47zsvllb0srdym3xnbh4z83vblw9zv0hmq4jmfp9ai&rid=giphy.gif%0a%0a%0a(:stylesheet:)%0a  .navbar {%0a    margin: 20px;%0a    padding: 20px;%0a    background-color: #44556f;%0a}%0a  .navlink {%0a    padding: 10px;%0a    background-color: none;%0a    text-decoration: none;%0a    font-weight: bold;%0a    border: 2px solid;%0a    border-color: white;%0a}%0a  .navlink:hover {%0a    background-color: gold;%0a    border-color: gold;%0a}%0a(:stylesheetend:)%0a
+time=1641649187
+author:1641649187=
+diff:1641649187:1641649174:=7c7%0a%3c %25center%25''Bonjour, nous sommes Mohamed Ouadjih Boudraa et Amine Neggazi. Nous sommes des étudiants en 2ème année master technologie d'information à l'université M'hamed Bougara Boumerdes.'' [[%3c%3c]]%0a---%0a> %25center%25''Bonjour, nous sommes Mohamed Ouadjih Boudraa et Amine Neggazi. Nous sommes des étudiants en 2ème année master technologie d'information à l'université M'hamed Bougara Boumerdes.''%0a
+host:1641649187=::1
+author:1641649174=
+diff:1641649174:1641649129:=9c9%0a%3c %25center%25https://media0.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif?cid=ecf05e47zsvllb0srdym3xnbh4z83vblw9zv0hmq4jmfp9ai&rid=giphy.gif%0a---%0a> %25center%25https://media2.giphy.com/media/u2pmTWUi0MXjyrMaVj/giphy.gif?cid=790b76112d8cf32e4d9fe2a6766b991f6330e643946d18f0&rid=giphy.gif%0a
+host:1641649174=::1
+author:1641649129=
+diff:1641649129:1641649116:=9c9%0a%3c %25center%25https://media2.giphy.com/media/u2pmTWUi0MXjyrMaVj/giphy.gif?cid=790b76112d8cf32e4d9fe2a6766b991f6330e643946d18f0&rid=giphy.gif%0a---%0a> %25center%25https://media2.giphy.com/media/u2pmTWUi0MXjyrMaVj/giphy.gif?cid=790b76112d8cf32e4d9fe2a6766b991f6330e643946d18f0&rid=giphy.gif&ct=g%0a
+host:1641649129=::1
+author:1641649116=
+diff:1641649116:1641649101:=9c9%0a%3c %25center%25https://media2.giphy.com/media/u2pmTWUi0MXjyrMaVj/giphy.gif?cid=790b76112d8cf32e4d9fe2a6766b991f6330e643946d18f0&rid=giphy.gif&ct=g%0a---%0a> https://media2.giphy.com/media/u2pmTWUi0MXjyrMaVj/giphy.gif?cid=790b76112d8cf32e4d9fe2a6766b991f6330e643946d18f0&rid=giphy.gif&ct=g%0a
+host:1641649116=::1
+author:1641649101=
+diff:1641649101:1641649055:=9c9%0a%3c https://media2.giphy.com/media/u2pmTWUi0MXjyrMaVj/giphy.gif?cid=790b76112d8cf32e4d9fe2a6766b991f6330e643946d18f0&rid=giphy.gif&ct=g%0a---%0a> https://giphy.com/embed/u2pmTWUi0MXjyrMaVj%0a
+host:1641649101=::1
+author:1641649055=
+diff:1641649055:1641648927:=8,9d7%0a%3c %0a%3c https://giphy.com/embed/u2pmTWUi0MXjyrMaVj%0a
+host:1641649055=::1
+author:1641648927=
+diff:1641648927:1641648903:=5c5%0a%3c %25center%25[[%3c%3c]][[%3c%3c]] [+++'''Welcome to our PmWiki Webpage'''+++] [[%3c%3c]][[%3c%3c]]%0a---%0a> [[%3c%3c]][[%3c%3c]] [+++'''Welcome to out PmWiki Webpage'''+++] [[%3c%3c]][[%3c%3c]]%0a
+host:1641648927=::1
+author:1641648903=
+diff:1641648903:1641648836:=4,5d3%0a%3c %0a%3c [[%3c%3c]][[%3c%3c]] [+++'''Welcome to out PmWiki Webpage'''+++] [[%3c%3c]][[%3c%3c]]%0a
+host:1641648903=::1
+author:1641648836=
+diff:1641648836:1641648718:=5c5%0a%3c %25center%25''Bonjour, nous sommes Mohamed Ouadjih Boudraa et Amine Neggazi. Nous sommes des étudiants en 2ème année master technologie d'information à l'université M'hamed Bougara Boumerdes.''%0a---%0a> ''Bonjour, nous sommes Mohamed Ouadjih Boudraa et Amine Neggazi. Nous sommes des étudiants en 2ème année master technologie d'information à l'université M'hamed Bougara Boumerdes.''%0a
+host:1641648836=::1
+author:1641648718=
+diff:1641648718:1641648707:=2c2%0a%3c || %25class=navlink color=white%25[[HomePage]] || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a---%0a> || %25class=navlink color=white%25[[Home]] || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a
+host:1641648718=::1
+author:1641648707=
+diff:1641648707:1641648698:=2c2%0a%3c || %25class=navlink color=white%25[[Home]] || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a---%0a> || %25class=navlink color=white%25[[Main]] || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a
+host:1641648707=::1
+author:1641648698=
+diff:1641648698:1641648671:=2c2%0a%3c || %25class=navlink color=white%25[[Main]] || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a---%0a> || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[Main]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a
+host:1641648698=::1
+author:1641648671=
+diff:1641648671:1641648227:=2c2%0a%3c || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[Main]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a---%0a> || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a
+host:1641648671=::1
+author:1641648227=
+diff:1641648227:1641648209:=
+host:1641648227=::1
+author:1641648209=
+diff:1641648209:1641648154:=23,24c23,24%0a%3c     background-color: gold;%0a%3c     border-color: gold;%0a---%0a>     background-color: white;%0a>     color: black;%0a
+host:1641648209=::1
+author:1641648154=
+diff:1641648154:1641648144:=2c2%0a%3c || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a---%0a> || %25class=navlink color=white text-decoration=0%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a
+host:1641648154=::1
+author:1641648144=
+diff:1641648144:1641648132:=2c2%0a%3c || %25class=navlink color=white text-decoration=0%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a---%0a> || %25class=navlink color=white text-decoration=none%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a
+host:1641648144=::1
+author:1641648132=
+diff:1641648132:1641647912:=2c2%0a%3c || %25class=navlink color=white text-decoration=none%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a---%0a> || %25class=navlink color=white text-decoration=overline%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a
+host:1641648132=::1
+author:1641647912=
+diff:1641647912:1641647870:=18d17%0a%3c     font-weight: bold;%0a
+host:1641647912=::1
+author:1641647870=
+diff:1641647870:1641647828:=2c2%0a%3c || %25class=navlink color=white text-decoration=overline%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a---%0a> || %25%25class=navlink color=white text-decoration=none%25[[CV-Boudraa]]%25 || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a
+host:1641647870=::1
+author:1641647828=
+diff:1641647828:1641647772:=2c2%0a%3c || %25%25class=navlink color=white text-decoration=none%25[[CV-Boudraa]]%25 || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a---%0a> || %25class=navlink color=white text-decoration=none%25%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a
+host:1641647828=::1
+author:1641647772=
+diff:1641647772:1641647763:=2c2%0a%3c || %25class=navlink color=white text-decoration=none%25%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a---%0a> || %25class=navlink color=white text-decoration=none%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a
+host:1641647772=::1
+author:1641647763=
+diff:1641647763:1641647693:=1,2c1,2%0a%3c >> class=navbar %3c%3c%0a%3c || %25class=navlink color=white text-decoration=none%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a---%0a> >> class=navbar text-decoration=none %3c%3c%0a> || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a
+host:1641647763=::1
+author:1641647693=
+diff:1641647693:1641647633:=1c1%0a%3c >> class=navbar text-decoration=none %3c%3c%0a---%0a> >> class=navbar %3c%3c%0a
+host:1641647693=::1
+author:1641647633=
+diff:1641647633:1641647564:=16c16%0a%3c     background-color: none;%0a---%0a>     background-color: red;%0a18,19d17%0a%3c     border: 2px solid;%0a%3c     border-color: white;%0a22,23c20%0a%3c     background-color: white;%0a%3c     color: black;%0a---%0a>     background-color: green;%0a
+host:1641647633=::1
+author:1641647564=
+diff:1641647564:1641647455:=17,20c17%0a%3c     text-decoration: none;%0a%3c }%0a%3c   .navlink:hover {%0a%3c     background-color: green;%0a---%0a>     text-decoration: none !important;%0a
+host:1641647564=::1
+author:1641647455=
+diff:1641647455:1641647437:=17c17%0a%3c     text-decoration: none !important;%0a---%0a>     text-decoration: none;%0a
+host:1641647455=::1
+author:1641647437=
+diff:1641647437:1641647387:=17d16%0a%3c     text-decoration: none;%0a
+host:1641647437=::1
+author:1641647387=
+diff:1641647387:1641647372:=15d14%0a%3c     padding: 10px;%0a
+host:1641647387=::1
+author:1641647372=
+diff:1641647372:1641646203:=0a1%0a> %0a15d15%0a%3c     background-color: red;%0a
+host:1641647372=::1
 author:1641646203=
 diff:1641646203:1641646167:=1,5d0%0a%3c %0a%3c >> class=navbar %3c%3c%0a%3c || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a%3c >>%3c%3c%0a%3c %0a7a3,12%0a> %25bgcolor=lightGreen%25'''Consulter autres pages'''%0a> *[[CV-Boudraa]]%0a> *[[CV-Neggazi]]%0a> *[[Programme d`annee]]%0a> *[[Thème fin d`etude]]%0a> *[[Loisirs]]%0a> %0a> >> class=navbar %3c%3c%0a> || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a> >>%3c%3c%0a
 host:1641646203=::1
