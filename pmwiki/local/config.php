@@ -4,6 +4,14 @@
 ##  Also, be sure to take a look at https://www.pmwiki.org/wiki/Cookbook
 ##  for more details on the customizations that can be added to PmWiki.
 
+
+# Stylesheet config
+Markup('stylesheet', '<[=',
+     "/\\(:stylesheet:\\)(.*?)\\(:stylesheetend:\\)/si",
+     "mu_stylesheet");
+  function mu_stylesheet($m) {$GLOBALS['HTMLStylesFmt'][] = $m[1];}
+
+
 ##  $WikiTitle is the name that appears in the browser's title bar.
 $WikiTitle = 'PmWiki';
 
