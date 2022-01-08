@@ -5,10 +5,43 @@ charset=UTF-8
 csum=
 host=::1
 name=Main.HomePage
-rev=289
+rev=300
 targets=Main.HomePage,Main.CV-Boudraa,Main.CV-Neggazi,Main.ProgrammeDAnnee,Main.ThèmeFinDEtude,Main.Loisirs
-text=>> class=navbar %3c%3c%0a|| %25class=navlink color=white%25[[HomePage]] || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a>>%3c%3c%0a%0a%25center%25[[%3c%3c]][[%3c%3c]] [+++'''Welcome to our PmWiki Webpage'''+++] [[%3c%3c]][[%3c%3c]]%0a%0a%25center%25''Bonjour, nous sommes Mohamed Ouadjih Boudraa et Amine Neggazi. Nous sommes des étudiants en 2ème année master technologie d'information à l'université M'hamed Bougara Boumerdes.'' [[%3c%3c]]%0a%0a%25center%25Attach:giphy1.gif%0a%0a%0a(:stylesheet:)%0a  .navbar {%0a    margin: 20px;%0a    padding: 20px;%0a    background-color: #44556f;%0a}%0a  .navlink {%0a    padding: 10px;%0a    background-color: none;%0a    text-decoration: none;%0a    font-weight: bold;%0a    border: 2px solid;%0a    border-color: white;%0a}%0a  .navlink:hover {%0a    background-color: gold;%0a    border-color: gold;%0a}%0a(:stylesheetend:)%0a
-time=1641649405
+text=>> class=navbar %3c%3c%0a|| %25class=navlink color=white%25[[HomePage]] || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a>>%3c%3c%0a%0a%25center%25[[%3c%3c]][[%3c%3c]] [+++'''Bienvenue sur notre page Web PmWiki'''+++] [[%3c%3c]][[%3c%3c]]%0a%0a%25center%25''Bonjour, nous sommes Mohamed Ouadjih Boudraa et Amine Neggazi. Nous sommes des étudiants [[%3c%3c]] en 2ème année master technologie d'information à l'université M'hamed Bougara Boumerdes.'' [[%3c%3c]] [[%3c%3c]]%0a%0a>>center %3c%3c%0a%25height=300px width=600px%25Attach:giphy1.gif%0a>>%3c%3c%0a%0a%0a(:stylesheet:)%0a  .navbar {%0a    margin: 20px;%0a    padding: 20px;%0a    background-color: #44556f;%0a}%0a  .navlink {%0a    padding: 10px;%0a    background-color: none;%0a    text-decoration: none;%0a    font-weight: bold;%0a    border: 2px solid;%0a    border-color: white;%0a}%0a  .navlink:hover {%0a    background-color: gold;%0a    border-color: gold;%0a}%0a(:stylesheetend:)%0a
+time=1641652646
+author:1641652646=
+diff:1641652646:1641652635:=10c10%0a%3c %25height=300px width=600px%25Attach:giphy1.gif%0a---%0a> %25height=300px width=700px%25Attach:giphy1.gif%0a
+host:1641652646=::1
+author:1641652635=
+diff:1641652635:1641652627:=10c10%0a%3c %25height=300px width=700px%25Attach:giphy1.gif%0a---%0a> %25height=300px width=500px%25Attach:giphy1.gif%0a
+host:1641652635=::1
+author:1641652627=
+diff:1641652627:1641652595:=9,11c9%0a%3c >>center %3c%3c%0a%3c %25height=300px width=500px%25Attach:giphy1.gif%0a%3c >>%3c%3c%0a---%0a> %25center width=400px%25Attach:giphy1.gif%0a
+host:1641652627=::1
+author:1641652595=
+diff:1641652595:1641651620:=9c9%0a%3c %25center width=400px%25Attach:giphy1.gif%0a---%0a> %25center%25Attach:giphy1.gif%0a
+host:1641652595=::1
+author:1641651620=
+diff:1641651620:1641651607:=7c7%0a%3c %25center%25''Bonjour, nous sommes Mohamed Ouadjih Boudraa et Amine Neggazi. Nous sommes des étudiants [[%3c%3c]] en 2ème année master technologie d'information à l'université M'hamed Bougara Boumerdes.'' [[%3c%3c]] [[%3c%3c]]%0a---%0a> %25center%25''Bonjour, nous sommes Mohamed Ouadjih Boudraa et Amine Neggazi. Nous sommes des étudiants [[%3c%3c]] en 2ème année master technologie d'information à l'université M'hamed Bougara Boumerdes.'' [[%3c%3c]]%0a
+host:1641651620=::1
+author:1641651607=
+diff:1641651607:1641650365:=7c7%0a%3c %25center%25''Bonjour, nous sommes Mohamed Ouadjih Boudraa et Amine Neggazi. Nous sommes des étudiants [[%3c%3c]] en 2ème année master technologie d'information à l'université M'hamed Bougara Boumerdes.'' [[%3c%3c]]%0a---%0a> %25center%25''Bonjour, nous sommes Mohamed Ouadjih Boudraa et Amine Neggazi. Nous sommes des étudiants en 2ème année master technologie d'information à l'université M'hamed Bougara Boumerdes.'' [[%3c%3c]]%0a
+host:1641651607=::1
+author:1641650365=
+diff:1641650365:1641650356:=2c2%0a%3c || %25class=navlink color=white%25[[HomePage]] || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a---%0a> || %25class=navlink color=white%25[[Index]] || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a
+host:1641650365=::1
+author:1641650356=
+diff:1641650356:1641650346:=2c2%0a%3c || %25class=navlink color=white%25[[Index]] || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a---%0a> || %25class=navlink color=white%25[[Home]] || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a
+host:1641650356=::1
+author:1641650346=
+diff:1641650346:1641650335:=2c2%0a%3c || %25class=navlink color=white%25[[Home]] || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a---%0a> || %25class=navlink color=white%25[[PageHome]] || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a
+host:1641650346=::1
+author:1641650335=
+diff:1641650335:1641650313:=2c2%0a%3c || %25class=navlink color=white%25[[PageHome]] || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a---%0a> || %25class=navlink color=white%25[[HomePage]] || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a
+host:1641650335=::1
+author:1641650313=
+diff:1641650313:1641649405:=5c5%0a%3c %25center%25[[%3c%3c]][[%3c%3c]] [+++'''Bienvenue sur notre page Web PmWiki'''+++] [[%3c%3c]][[%3c%3c]]%0a---%0a> %25center%25[[%3c%3c]][[%3c%3c]] [+++'''Welcome to our PmWiki Webpage'''+++] [[%3c%3c]][[%3c%3c]]%0a
+host:1641650313=::1
 author:1641649405=
 diff:1641649405:1641649187:=9c9%0a%3c %25center%25Attach:giphy1.gif%0a---%0a> %25center%25https://media0.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif?cid=ecf05e47zsvllb0srdym3xnbh4z83vblw9zv0hmq4jmfp9ai&rid=giphy.gif%0a
 host:1641649405=::1
