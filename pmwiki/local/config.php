@@ -4,6 +4,11 @@
 ##  Also, be sure to take a look at https://www.pmwiki.org/wiki/Cookbook
 ##  for more details on the customizations that can be added to PmWiki.
 
+# Admin password
+include_once("$FarmD/scripts/authuser.php");
+
+$DefaultPasswords['read'] = 'id:*';
+$DefaultPasswords['edit'] = 'id:*';
 
 # Stylesheet config
 Markup('stylesheet', '<[=',
@@ -11,9 +16,9 @@ Markup('stylesheet', '<[=',
      "mu_stylesheet");
   function mu_stylesheet($m) {$GLOBALS['HTMLStylesFmt'][] = $m[1];}
 
-
 ##  $WikiTitle is the name that appears in the browser's title bar.
 $WikiTitle = 'PmWiki';
+
 
 ##  $ScriptUrl is the URL for accessing wiki pages with a browser.
 ##  $PubDirUrl is the URL for the pub directory.
@@ -42,7 +47,7 @@ $EnablePathInfo = 1;
 ## the "attr" passwords for the PmWiki and Main groups are locked, so
 ## an admin password is a good way to unlock those.  See PmWiki.Passwords
 ## and PmWiki.PasswordsAdmin.
-# $DefaultPasswords['admin'] = pmcrypt('secret');
+$DefaultPasswords['admin'] = pmcrypt('secret');
 
 ## Unicode (UTF-8) allows the display of all languages and all alphabets.
 ## Highly recommended for new wikis.
