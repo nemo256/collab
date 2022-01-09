@@ -1,14 +1,17 @@
 version=pmwiki-2.2.145 ordered=1 urlencoded=1
 agent=Mozilla/5.0 (X11; Linux x86_64; rv:95.0) Gecko/20100101 Firefox/95.0
-author=Amine Neggazi
+author=
 charset=UTF-8
 csum=
 host=::1
 name=Main.HomePage
-rev=301
+rev=302
 targets=Main.HomePage,Main.CV-Boudraa,Main.CV-Neggazi,Main.ProgrammeDAnnee,Main.ThèmeFinDEtude,Main.Loisirs
-text=>> class=navbar %3c%3c%0a|| %25class=navlink color=white%25[[HomePage]] || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a>>%3c%3c%0a%0a%25center%25[[%3c%3c]][[%3c%3c]] [+++'''Bienvenue sur notre page Web PmWiki'''+++] [[%3c%3c]][[%3c%3c]]%0a%0a%25center%25''Bonjour, nous sommes Mohamed Ouadjih Boudraa et Amine Neggazi. Nous sommes des étudiants [[%3c%3c]] en 2ème année master technologie d'information à l'université M'hamed Bougara Boumerdes.'' [[%3c%3c]] [[%3c%3c]]%0a%0a>>center %3c%3c%0a%25height=300px width=600px%25Attach:giphy1.gif%0a>>%3c%3c%0a%0a%0a(:stylesheet:)%0a  .navbar {%0a    padding: 20px;%0a    background-color: #44556f;%0a}%0a  .navlink {%0a    padding: 10px;%0a    background-color: none;%0a    text-decoration: none;%0a    font-weight: bold;%0a    border: 2px solid;%0a    border-color: white;%0a}%0a  .navlink:hover {%0a    background-color: gold;%0a    border-color: gold;%0a}%0a(:stylesheetend:)%0a
-time=1641655650
+text=>> class=navbar %3c%3c%0a|| %25class=navlink color=white%25[[HomePage]] || %25class=navlink color=white%25[[CV-Boudraa]] || %25class=navlink color=white%25[[CV-Neggazi]] || %25class=navlink color=white%25[[Programme d`annee]] || %25class=navlink color=white%25[[Thème fin d`etude]] || %25class=navlink color=white%25[[Loisirs]]%0a>>%3c%3c%0a%0a%25center%25[[%3c%3c]][[%3c%3c]] [+++'''Bienvenue sur notre page web PmWiki'''+++] [[%3c%3c]][[%3c%3c]]%0a%0a%25center%25''Bonjour, nous sommes Mohamed Ouadjih Boudraa et Amine Neggazi. Nous sommes des étudiants [[%3c%3c]] en 2ème année master technologie d'information à l'université M'hamed Bougara Boumerdes.'' [[%3c%3c]] [[%3c%3c]]%0a%0a>>center %3c%3c%0a%25height=300px width=600px%25Attach:giphy1.gif%0a>>%3c%3c%0a%0a%0a(:stylesheet:)%0a  .navbar {%0a    padding: 20px;%0a    background-color: #44556f;%0a}%0a  .navlink {%0a    padding: 10px;%0a    background-color: none;%0a    text-decoration: none;%0a    font-weight: bold;%0a    border: 2px solid;%0a    border-color: white;%0a}%0a  .navlink:hover {%0a    background-color: gold;%0a    border-color: gold;%0a}%0a(:stylesheetend:)%0a
+time=1641668619
+author:1641668619=
+diff:1641668619:1641655650:=5c5%0a%3c %25center%25[[%3c%3c]][[%3c%3c]] [+++'''Bienvenue sur notre page web PmWiki'''+++] [[%3c%3c]][[%3c%3c]]%0a---%0a> %25center%25[[%3c%3c]][[%3c%3c]] [+++'''Bienvenue sur notre page Web PmWiki'''+++] [[%3c%3c]][[%3c%3c]]%0a
+host:1641668619=::1
 author:1641655650=Amine Neggazi
 diff:1641655650:1641652646:=15a16%0a>     margin: 20px;%0a
 host:1641655650=::1
