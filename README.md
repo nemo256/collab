@@ -20,7 +20,7 @@ $ cd collab/pmwiki
 ```bash
 $ sudo php -S localhost:3000
 ```
-3. Open up your browser (localhost:3000 is the developpment server):
+3. Open up your browser (localhost:3000 is the development server):
 ```bash
 $ firefox localhost:3000
 ```
