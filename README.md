@@ -30,6 +30,9 @@ $ firefox localhost:3000
 
 ## Usage
 
-1. If you encounter a login page just enter (user: admin) and (password: secret)
+1. If you encounter a login page just enter the following:
+> Username: `admin`
+> Password: `secret`
+
 2. You can view all the pages and edit them to your liking.
 3. For calendar files [calendar/*.ics] you can import them on google calendar.
