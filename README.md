@@ -11,6 +11,9 @@ and finally we use PmWiki to create a website.
 ## Dependencies
 
 > `PHP` version 5 and up is required
+
+## Installation
+
 1. Run this to clone this repo:
 ```bash
 $ git clone https://github.com/nemo256/collab
